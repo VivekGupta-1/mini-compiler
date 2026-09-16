@@ -14,19 +14,16 @@ Source Program
 │      (Lexer)        │
 └──────────┬──────────┘
            ▼
-           
 ┌─────────────────────┐
 │ Syntax Analysis /   │
 │      Parser         │
 └──────────┬──────────┘
            ▼
-           
 ┌─────────────────────┐
 │ Three-Address Code  │
 │      (TAC)          │
 └──────────┬──────────┘
-           ▼
-           
+           ▼       
 ┌─────────────────────┐
 │   Code Optimizer    │
 │ Constant Folding    │
