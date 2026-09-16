@@ -6,6 +6,7 @@ A modular mini compiler implemented in **C (C99)** that demonstrates the major s
 
 
 Source Program
+
       │
       ▼
 ┌─────────────────────┐
@@ -13,16 +14,19 @@ Source Program
 │      (Lexer)        │
 └──────────┬──────────┘
            ▼
+           
 ┌─────────────────────┐
 │ Syntax Analysis /   │
 │      Parser         │
 └──────────┬──────────┘
            ▼
+           
 ┌─────────────────────┐
 │ Three-Address Code  │
 │      (TAC)          │
 └──────────┬──────────┘
            ▼
+           
 ┌─────────────────────┐
 │   Code Optimizer    │
 │ Constant Folding    │
