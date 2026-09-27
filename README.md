@@ -4,7 +4,7 @@ A modular mini compiler implemented in **C (C99)** that demonstrates the major s
 
 ## 🚀 Compiler Pipeline
 
-
+```text
 Source Program
 
       │
